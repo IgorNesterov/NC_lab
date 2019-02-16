@@ -99,12 +99,43 @@ body ul {
     margin-left:  12.5px;
 }
 .carousel-element-image {
-    background-image: url(../images/konut.png);
+
     background-size: cover;
     width: 200px;
     max-width: 200px;
     height: 200px;
 }
+.image-c1{
+background-image: url(../images/c1.jpg);
+}
+.image-c2{
+background-image: url(../images/c2.jpg);
+}
+.image-c3{
+background-image: url(../images/c3.jpg);
+}
+.image-c4{
+background-image: url(../images/c4.png);
+}
+.image-c5{
+background-image: url(../images/c5.jpg);
+}
+.image-c6{
+background-image: url(../images/c6.jpg);
+}
+.image-c7{
+background-image: url(../images/c7.jpg);
+}
+.image-c8{
+background-image: url(../images/c8.jpg);
+}
+.image-c9{
+background-image: url(../images/c3.jpg);
+}
+.image-c10{
+background-image: url(../images/c4.png);
+}
+
 .carousel-arrow-left {
     background-image: url(../images/str_left.png);
     background-size: cover;
@@ -131,13 +162,22 @@ body ul {
      margin: 0 auto;
      width: 50%;
 }
-.reviews-button{
+
+.reviews-button1 {
+     display: -webkit-flex;
+     display: flex;
+     justify-content: center;
+}
+.reviews-button2 {
      display: -webkit-flex;
      display: flex;
      justify-content: center;
 }
 .reviews-list-item-li{
     list-style: none;
+}
+.list-toggle2{
+display:none;
 }
 .reviews-list-item{
     border: 4px double #FF8C00;
@@ -201,7 +241,6 @@ body ul {
     padding-top: 100px;
 }
 .gallery-line-image{
-    background-image: url(../images/index_2.png);
     background-size: cover;
     width: 100%;
     margin: 25px;
@@ -209,6 +248,7 @@ body ul {
     padding: 10px;
 }
 .o1{
+
     background-image: url(../images/index_1.jpg);
 }
 .o2{
@@ -282,12 +322,176 @@ body ul {
     font-size: 10pt;
 }
 
-
-
 .u-list li:nth-child(n+4) {
   display: none;
 }
 
 .u-list.open li:nth-child(n+4) {
   display: list-item;
+}
+
+.u-list.close li:nth-child(n+4) {
+  display: none;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 99999; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0, 0, 0, 0.8);
+}
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 30%;
+}
+
+/* The Close Button */
+.closess {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.closess:hover,
+.closess:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+.popup_1 {
+
+}
+.popup_2 {
+
+}
+.popup_3 {
+
+}
+.popup_4 {
+
+}
+.popup_5 {
+}
+.popup_6 {
+}
+.popup_7 {
+}
+.popup_8 {
+}
+
+.image_g1_1 {
+background-image: url(../images/g11.jpg);
+}
+.image_g1_2 {
+background-image: url(../images/g12.jpg);
+}
+.image_g1_3 {
+background-image: url(../images/g13.jpg);
+}
+
+.image_g2_1 {
+}
+.image_g2_2 {
+}
+.image_g2_3 {
+}
+
+.image_g3_1 {
+}
+.image_g3_2 {
+}
+.image_g3_3 {
+}
+
+.image_g4_1 {
+}
+.image_g4_2 {
+}
+.image_g4_3 {
+}
+
+.image_g5_1 {
+}
+.image_g5_2 {
+}
+.image_g5_3 {
+}
+
+.image_g6_1 {
+}
+.image_g6_2 {
+}
+.image_g6_3 {
+}
+
+.image_g7_1 {
+}
+.image_g7_2 {
+}
+.image_g7_3 {
+}
+
+.image_g8_1 {
+}
+.image_g8_2 {
+}
+.image_g8_3 {
+}
+
+
+
+.popup-carousel{
+    width: 100%;
+    display: -webkit-flex;
+    display: flex;
+}
+.popup-carousel-hider {
+    width: 225px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.popup-carousel-list {
+    list-style: none;
+    width: 225px;
+    display: -webkit-flex;
+    display: flex;
+}
+.popup-carousel-element {
+    display: block;
+    max-width: 200px;
+    margin-right: 12.5px;
+    margin-left:  12.5px;
+}
+.popup-carousel-element-image {
+    background-size: cover;
+    width: 200px;
+    max-width: 200px;
+    height: 200px;
+}
+.popup-carousel-arrow-left {
+    background-image: url(../images/str_left.png);
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    margin-top:75px;
+    margin-left:5%;
+}
+.popup-carousel-arrow-right {
+    background-image: url(../images/str_right.png);
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    margin-top:75px;
+    margin-right:5%;
 }
