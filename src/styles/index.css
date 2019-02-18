@@ -178,7 +178,7 @@ background-image: url(../images/c4.png);
 }
 .reviews-list-item-li4.more{
     list-style: none;
-    opacity: .99;
+    opacity: 1;
 }
 .list-toggle2{
     display:none;
@@ -489,7 +489,7 @@ background-image: url(../images/g13.jpg);
 
 
 
-.o1:hover .gradient{
+.gallery-line-image:hover .gradient{
 display:block;
     top: 0;
     left: 0;
