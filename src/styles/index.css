@@ -356,19 +356,19 @@ background-image: url(../images/c4.png);
 }
 
 /* The Close Button */
-.closess {
+.closes {
     color: #aaaaaa;
     float: right;
     font-size: 28px;
     font-weight: bold;
 }
 
-.closess:hover,
-.closess:focus {
+.closes:hover,
+.closes:focus {
     color: #000;
     text-decoration: none;
     cursor: pointer;
-
+}
 .image_g1_1 {
 background-image: url(../images/g11.jpg);
 }
